@@ -169,6 +169,7 @@ skill-description {
 /* Resume section styles  */
 .resume-container {
     display: flex;
+    gap: 40px;
 }
 
 .resume-column-title {
@@ -188,6 +189,7 @@ skill-description {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .resume-item-info {
@@ -195,4 +197,16 @@ skill-description {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+}
+
+.download-cv{
+    text-align: center;
+}
+
+/* Footer Styles here */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
 }
